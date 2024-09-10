@@ -20,7 +20,7 @@ public class ServletDemo1 implements Servlet {
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         servletResponse.setCharacterEncoding("UTF-8");
-        servletResponse.getWriter().write("ServletDemo1 Service 方法");
+        servletResponse.getWriter().write("ServletDemo1 Service Service");
     }
 
     @Override
