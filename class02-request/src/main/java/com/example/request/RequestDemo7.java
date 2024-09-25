@@ -12,11 +12,11 @@ import java.io.IOException;
 
 public class RequestDemo7 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-System.out.println("attribute 值"+req.getAttribute("msg"));
-        req.removeAttribute("mag");
+        System.out.println("attribute 值"+req.getAttribute("msg"));
+        req.removeAttribute("msg");
         ServletContext servletContext =req.getServletContext();
 
-        String info=String.valueOf(req.getAttribute("info"));
+        String info=String.valueOf(servletContext.getAttribute("info"));
         System.out.println("info"+info);
 
     }

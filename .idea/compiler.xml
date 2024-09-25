@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="class01-servlet" />
         <module name="class02-request" />
+        <module name="class03-request" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="class03-response" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

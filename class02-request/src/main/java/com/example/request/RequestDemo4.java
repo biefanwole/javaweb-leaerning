@@ -24,7 +24,6 @@ public class RequestDemo4 extends HttpServlet {
             System.out.println("hobby"+hobby);
         }
 
-
         System.out.println("============");
         System.out.println("获取所有请求的参数名称");
         Enumeration<String> parameterNames=req.getParameterNames();

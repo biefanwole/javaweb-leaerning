@@ -13,9 +13,9 @@ import java.io.IOException;
 public class RequestDemo3 extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
   BufferedReader reader=req.getReader();
-String line;
-while ((line=reader.readLine())!=null){
-System.out.println(line);
+    String line;
+    while ((line=reader.readLine())!=null){
+    System.out.println(line);
 }
     }
     }
