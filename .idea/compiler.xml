@@ -2,16 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="class01-servlet" />
-        <module name="class02-request" />
         <module name="class03-request" />
+        <module name="class02-request" />
+        <module name="book-online" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="book" target="17" />
       <module name="class03-response" target="17" />
     </bytecodeTargetLevel>
   </component>
