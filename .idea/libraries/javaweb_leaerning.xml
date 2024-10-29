@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="javaweb-leaerning">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/book-online/src/main/java" />
+      <root url="file://$PROJECT_DIR$/book-online/src/test/java" />
+      <root url="file://$PROJECT_DIR$/class01-servlet/src/main/java" />
+      <root url="file://$PROJECT_DIR$/class02-request/src/main/java" />
+      <root url="file://$PROJECT_DIR$/class03-request/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

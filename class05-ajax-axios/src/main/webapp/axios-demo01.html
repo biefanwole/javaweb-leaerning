@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>shiyongAxios faqi Post fangshiqingqiu</title>
+</head>
+<body>
+<h1>shiyongAxios faqi Post fangshiqingqiu</h1>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    axios({
+        method:"get",
+        url:"http://localhost:8080/axiosServlet?username='zhangsan'",
+        data:"username=zhangsan"
+    }).then(function (resp){
+console.log(resp)
+        alert(resp.data)
+    }).catch(function (err){
+        console.log(err)
+    })
+</script>
+</body>
+</html>

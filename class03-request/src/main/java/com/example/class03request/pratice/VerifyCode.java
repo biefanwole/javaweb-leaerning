@@ -22,7 +22,7 @@ public class VerifyCode extends HttpServlet {
         Graphics g = image.getGraphics();
         g.setColor(Color.white);
         g.fillRect(0,0,width,height);
-        String str="12345678wasdefQWERTY";
+        String str="0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
         Random random=new Random();
         for (int i=0;i<=5;i++){
             int index=random.nextInt(str.length());

@@ -10,7 +10,18 @@
         <option value="$PROJECT_DIR$/class03-request/pom.xml" />
         <option value="$PROJECT_DIR$/book-online/pom.xml" />
         <option value="$PROJECT_DIR$/book/pom.xml" />
+        <option value="$PROJECT_DIR$/class04-cookie-session/pom.xml" />
+        <option value="$PROJECT_DIR$/class05-ajax-axious/pom.xml" />
+        <option value="$PROJECT_DIR$/class05-ajax-axios/pom.xml" />
+        <option value="$PROJECT_DIR$/brand-list/pom.xml" />
+        <option value="$PROJECT_DIR$/class06-filter-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/demoT/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/class05-ajax-axious/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
